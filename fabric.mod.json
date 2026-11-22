@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "critaim",
+  "version": "${version}",
+  "name": "CritAim",
+  "description": "Jump criticals + aim assist",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.critaim.CritAimClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.4",
+    "java": ">=21"
+  }
+}
